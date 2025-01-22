@@ -5,3 +5,9 @@
 ```console 
 $ ls $dir | awk '{print $1}' | uniq
 ```
+
+**2. Daily inspirational quotes**
+
+```console
+$  fortune | cowsay -f calvin.cow | lolcat
+```
