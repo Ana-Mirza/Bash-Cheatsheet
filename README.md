@@ -1,6 +1,6 @@
 ## Random bash commands
 
-**1. List files with unique first word in a directory**
+**1. List all different first words from all files names in a directory**
 
 ```console 
 $ ls $dir | awk '{print $1}' | uniq
