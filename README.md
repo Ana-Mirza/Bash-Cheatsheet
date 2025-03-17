@@ -12,6 +12,11 @@ $ ls $dir | awk '{print $1}' | uniq
 $  fortune | cowsay -f calvin.cow | lolcat
 ```
 
+**3. Commit with custom date**
+```console
+$ git commit --amend --no-edit --date "17/08/24 20:19:19 +0200"
+```
+
 ---
 ### Git commands
 
