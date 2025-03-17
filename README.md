@@ -13,7 +13,7 @@ $  fortune | cowsay -f calvin.cow | lolcat
 ```
 
 ---
-### Git
+### Git commands
 
 **1. Multiple commits fix**
 
