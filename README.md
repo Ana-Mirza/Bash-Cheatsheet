@@ -12,28 +12,39 @@ $ ls $dir | awk '{print $1}' | uniq
 $  fortune | cowsay -f calvin.cow | lolcat
 ```
 
-**3. Commit with custom date**
+**3. Recover VMWare stuck in initframs prompt**
 ```console
-$ git commit --amend --no-edit --date "17/08/24 20:19:19 +0200"
+$ fsck -y /dev/sda2
+$ reboot -y
 ```
 
 ---
 ### Git commands
 
-**1. Multiple commits fix**
+**1. Commit with custom date**
+```console
+$ git commit --amend --no-edit --date "17/08/24 20:19:19 +0200"
+```
+
+**2. Multiple commits fix**
 
 ```console
 $  git rebase -i HEAD~7
 ```
-**2. Add current commit to prev commit**
+**3. Add current commit to prev commit**
 
 ```console
 $ git commit --amend --no-edit
 $ git push -f origin <branch>
 ```
 
-3. See changes made
+**4. See changes made**
 
 ```console
 $ git diff origin/<branch_name>
+```
+
+**5. Get files changed in last commit**
+```console
+$ git diff --name-only HEAD HEAD~1
 ```
