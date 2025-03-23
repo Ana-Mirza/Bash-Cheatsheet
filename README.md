@@ -31,7 +31,7 @@ $ git commit --amend --no-edit --date "17/08/24 20:19:19 +0200"
 ```console
 $  git rebase -i HEAD~7
 ```
-**3. Add current commit to prev commit**
+**3. Add current changes to prev commit**
 
 ```console
 $ git commit --amend --no-edit
