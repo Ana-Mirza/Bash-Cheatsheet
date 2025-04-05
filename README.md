@@ -48,3 +48,8 @@ $ git diff origin/<branch_name>
 ```console
 $ git diff --name-only HEAD HEAD~1
 ```
+
+**6. Updatea submodules**
+```console
+$ git submodule update --recursive --remote --force
+```
