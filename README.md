@@ -18,6 +18,11 @@ $ fsck -y /dev/sda2
 $ reboot -y
 ```
 
+**4. Delete recursively all files with matching name**
+```console
+$ find . -type f -name '*.Identifier' -delete
+```
+
 ---
 ### Git commands
 
@@ -49,7 +54,7 @@ $ git diff origin/<branch_name>
 $ git diff --name-only HEAD HEAD~1
 ```
 
-**6. Updatea submodules**
+**6. Update submodules**
 ```console
 $ git submodule update --recursive --remote --force
 ```
