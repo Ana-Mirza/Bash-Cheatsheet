@@ -1,4 +1,4 @@
-## Random bash commands
+## Random bash commands 📌
 
 **1. List all different first words from all files names in a directory**
 
@@ -24,7 +24,7 @@ $ find . -type f -name '*.Identifier' -delete
 ```
 
 ---
-### Git commands
+### Git 🚀
 
 **1. Commit with custom date**
 ```console
